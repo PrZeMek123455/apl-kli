@@ -1,0 +1,389 @@
+* {
+  max-width: 1900px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(26, 75, 165);
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.header-p {
+  font-size: 30px;
+  color: white;
+}
+
+.header-h1 {
+  font-size: 35px;
+}
+
+.header-h2 {
+  font-size: 35px;
+  color: white;
+}
+
+.header-img {
+  width: 400px;
+  height: 250px;
+  float: right;
+  position: relative;
+  bottom: 200px;
+  left: -150px;
+}
+
+.header-button {
+  width: 150px;
+  height: 60px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 535px) {
+  .header {
+    height: 220px;
+    width: 800px;
+  }
+
+  .header-p {
+    font-size: 15px;
+  }
+
+  .header-h1 {
+    font-size: 18px;
+  }
+
+  .header-h2 {
+    font-size: 18px;
+  }
+
+  .header-img {
+    width: 150px;
+    height: 100px;
+    left: -20px;
+    top: -120px;
+  }
+
+  .header-button {
+    width: 120px;
+    height: 30px;
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 536px) and (max-width: 768px) {
+  .header {
+    width: 1450px;
+    height: 300px;
+  }
+
+  .header-p {
+    font-size: 10px;
+  }
+
+  .header-h1 {
+    font-size: 15px;
+  }
+
+  .header-h2 {
+    font-size: 15px;
+  }
+
+  .header-img {
+    width: 300px;
+    height: 200px;
+    left: -20px;
+    top: -120px;
+  }
+
+  .header-button {
+    width: 120px;
+    height: 30px;
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+  .header {
+    width: 1450px;
+    height: 300px;
+  }
+
+  .header-p {
+    font-size: 10px;
+  }
+
+  .header-h1 {
+    font-size: 15px;
+  }
+
+  .header-h2 {
+    font-size: 15px;
+  }
+
+  .header-img {
+    width: 300px;
+    height: 200px;
+    left: -20px;
+    top: -120px;
+  }
+
+  .header-button {
+    width: 120px;
+    height: 30px;
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .header {
+    width: 1895px;
+    height: 300px;
+  }
+
+  .header-p {
+    font-size: 22px;
+  }
+
+  .header-h1 {
+    font-size: 25px;
+  }
+
+  .header-h2 {
+    font-size: 25px;
+  }
+
+  .header-img {
+    width: 300px;
+    height: 200px;
+    left: -120px;
+    top: -170px;
+  }
+
+  .header-button {
+    width: 150px;
+    height: 60px;
+    font-size: 14px;
+  }
+}
+
+.tekst {
+  max-width: 200px;
+  font-size: 28px;
+  margin-left: 800px;
+}
+
+.section {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.pierwszy {
+  width: 33%;
+  height: 600px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.zdjecia.biz.pl%2Fzdjecia%2Fduze%2Fmiasto-gdansk-noca-polska.jpeg&f=1&nofb=1&ipt=6fb26d567d5cf3c6c32dc76cda022fae3a4cc15a246229d8f5a72b617a9291ef&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.drugi {
+  width: 33%;
+  height: 600px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.zdjecia.biz.pl%2Fzdjecia%2Fduze%2Fmiasto-gdansk-noca-polska.jpeg&f=1&nofb=1&ipt=6fb26d567d5cf3c6c32dc76cda022fae3a4cc15a246229d8f5a72b617a9291ef&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+}
+
+.trzeci {
+  width: 33%;
+  height: 600px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.zdjecia.biz.pl%2Fzdjecia%2Fduze%2Fmiasto-gdansk-noca-polska.jpeg&f=1&nofb=1&ipt=6fb26d567d5cf3c6c32dc76cda022fae3a4cc15a246229d8f5a72b617a9291ef&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+}
+
+.tekst1 {
+  position: relative;
+  top: 600px;
+  height: 150px;
+}
+
+.tekst2 {
+  position: relative;
+  top: 600px;
+  height: 150px;
+}
+
+.tekst3 {
+  position: relative;
+  top: 600px;
+  height: 150px;
+}
+
+p {
+  position: relative;
+  top: 10px;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 536px) and (max-width: 768px) {
+  .section {
+    display: inline-block;
+    margin-left: -150px;
+  }
+
+  .pierwszy {
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+  }
+
+  .drugi {
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 150px;
+  }
+
+  .trzeci {
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 150px;
+  }
+
+  .tekst1 {
+    position: relative;
+    top: 425px;
+  }
+
+  .tekst2 {
+    position: relative;
+    top: 425px;
+  }
+
+  .tekst3 {
+    position: relative;
+    top: 425px;
+  }
+
+  .tekst {
+    margin-left: 650px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .section {
+    display: inline-block;
+    margin-left: -150px;
+  }
+
+  .pierwszy {
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+  }
+
+  .drugi {
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 150px;
+  }
+
+  .trzeci {
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 150px;
+  }
+
+  .tekst1 {
+    position: relative;
+    top: 325px;
+  }
+
+  .tekst2 {
+    position: relative;
+    top: 325px;
+  }
+
+  .tekst3 {
+    position: relative;
+    top: 325px;
+  }
+
+  .tekst {
+    font-size: 25px;
+    margin-left: 300px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+  .section {
+    display: inline-block;
+    margin-left: -150px;
+  }
+
+  .pierwszy {
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+  }
+
+  .drugi {
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 150px;
+  }
+
+  .trzeci {
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 150px;
+  }
+
+  .tekst1 {
+    position: relative;
+    top: 425px;
+  }
+
+  .tekst2 {
+    position: relative;
+    top: 425px;
+  }
+
+  .tekst3 {
+    position: relative;
+    top: 425px;
+  }
+
+  .tekst {
+    margin-left: 650px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1399px) {
+  .tekst {
+    margin-left: 525px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+  .tekst {
+    margin-left: 575px;
+  }
+}
